@@ -1,0 +1,7 @@
+<h1> Merchants Items </h1>
+
+<% @merchant_items[:data].each do |item| %>
+  <p>
+    <%= item[:attributes][:name] %>
+  </p>
+<% end %>
